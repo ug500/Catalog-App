@@ -1,0 +1,69 @@
+/* LoginForm.module.css */
+
+.loginCard {
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loginCard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.loginCard form div {
+    margin-bottom: 15px;
+}
+
+.loginCard label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.loginCard input[type="text"],
+.loginCard input[type="password"] {
+    width: calc(100% - 22px); /* Adjust width to account for padding and border */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loginCard button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.loginCard button:hover {
+    background-color: #0056b3;
+}
+
+.loginCard p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loginCard a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.loginCard a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}

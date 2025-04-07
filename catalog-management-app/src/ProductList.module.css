@@ -1,0 +1,85 @@
+/* ProductList.module.css */
+
+.productList {
+    padding: 20px;
+}
+
+.productList h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.productList input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.productList button {
+    padding: 10px 15px;
+    margin-right: 5px; /* Reduced margin */
+    border: none;
+    border-radius: 4px;
+    background-color: #5F99AE;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap; /* Prevent button text wrapping */
+}
+
+.productList button:hover {
+    background-color: #0056b3;
+}
+
+.productList table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.productList th,
+.productList td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.productList th {
+    background-color: #f2f2f2;
+}
+
+.productList tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.productList tr:hover {
+    background-color: #f0f0f0;
+}
+
+.productList .pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.productList .pagination button {
+    margin: 0 5px;
+}
+
+.productList .error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.productList .loading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.productList td:last-child { /* Style the last td (Actions) */
+    white-space: nowrap; /* Prevent button wrapping within the cell */
+}

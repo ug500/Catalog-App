@@ -1,0 +1,48 @@
+/* Header.module.css */
+
+.header {
+    background-color: #643197;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.welcome {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    white-space: nowrap;
+    top: 50%;
+}
+
+.logoutButton {
+    background-color: transparent;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border: 2px solid #ffe484;
+    color: #ffe484;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.logoutButton:hover {
+    background-color: #ffe484;
+    color: #643197;
+    border: 2px solid #ffe484;
+}
+
+.logo{
+    height: 40px;
+    margin-right: 10px;
+}

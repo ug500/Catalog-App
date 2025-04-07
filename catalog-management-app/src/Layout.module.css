@@ -1,0 +1,56 @@
+/* Layout.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  justify-content: center; /* Center the main content */
+  align-items: stretch; /* Stretch to fill available height */
+}
+
+.main {
+  flex: 1;
+  padding: 40px;
+  max-width: 80vw;
+  margin: 0 auto;
+  background-color: #F5ECE0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Allow scrolling within main content */
+}
+
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center header content */
+}
+
+.headerContent {
+  max-width: 80vw; /* Match main content width */
+  width: 100%; /* Ensure header content fills its container */
+}
+
+.footer {
+  position: fixed; /* Make the footer fixed */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 70px; /* Adjust height as needed */
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.content {
+  padding-bottom: 20px; /* add padding to prevent overlap with footer */
+}

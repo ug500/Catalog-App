@@ -1,0 +1,138 @@
+/* UserProfile.module.css */
+
+.userProfile {
+    padding: 20px;
+}
+
+.userProfile h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.userProfile input[type="text"],
+.userProfile input[type="email"],
+.userProfile input[type="date"],
+.userProfile input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.userProfile button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5F99AE;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.userProfile button:hover {
+    background-color: #0056b3;
+}
+
+.userProfile table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.userProfile th,
+.userProfile td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.userProfile th {
+    background-color: #f2f2f2;
+}
+
+.userProfile tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.userProfile tr:hover {
+    background-color: #f0f0f0;
+}
+
+.userProfile .pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.userProfile .pagination button {
+    margin: 0 5px;
+}
+
+.userProfile .error {
+    color: red;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.userProfile .loading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.userProfile td:last-child {
+    white-space: nowrap;
+}
+
+/* User Profile Specific Styles */
+
+.userProfile .profileInfo {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.userProfile .profileInfo p {
+    margin-bottom: 10px;
+}
+
+.userProfile .profileInfo strong {
+    font-weight: bold;
+}
+
+/* Form Card Styles */
+
+.userProfile form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.userProfile form div {
+    margin-bottom: 15px;
+}
+
+.userProfile form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.userProfile .buttonContainer {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    margin-top: 20px;
+    width: 100%;
+}
+
+.userProfile .buttonContainer button {
+    margin: 0 5px; /* Reduced horizontal margin for less space */
+}
